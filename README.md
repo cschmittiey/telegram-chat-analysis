@@ -12,7 +12,7 @@ Here's what I'd like to do with it in the future
 - actually upsert instead of just ignoring messages that were already added
 
 ## Instructions for use:
-pip install psycopg2 dateutil
+`pip install psycopg2 dateutil`
 
 connect to your postgres database, and create a table for your messages to be stored in:
 ```sql
